@@ -1,0 +1,6 @@
+build-secrets.txt
+node_modules
+*.log
+
+# Ignore OS files (macOS example)
+.DS_Store
