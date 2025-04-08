@@ -1,4 +1,4 @@
-build-secrets.txt
+build-secrets.yaml
 node_modules
 *.log
 
