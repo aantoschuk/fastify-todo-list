@@ -1,6 +1,11 @@
 import Fastify from "fastify";
 
+import healthRoute from "./routes/health";
+
 const fastify = Fastify({ logger: true });
+
+// TODO: make it dynamic and check for env availability
+fastify.register(healthRoute);
 
 const start = async () => {
   try {
